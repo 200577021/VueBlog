@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "Vue.js Basics",
+      "category": "Programming",
+      "author": "John Doe",
+      "date": "2025-03-20"
+    },
+    {
+      "id": 2,
+      "title": "Traveling to Japan",
+      "category": "Travel",
+      "author": "Jane Smith",
+      "date": "2025-03-18"
+    }
+  ]
