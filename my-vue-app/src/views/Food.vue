@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Food</h2>
-      <p>(Food blogs coming soon..)</p>
+      <h2>Food blog</h2>
+      <p>(New food blog coming soon..)</p>
     </div>
   </template>

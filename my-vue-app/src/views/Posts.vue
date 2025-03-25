@@ -15,11 +15,6 @@
       <div v-else>
         <p>No posts found...</p>
       </div>
-
-      <!-- Displaying the Subroute-->
-      <div>
-        <RouterLink to="/posts/food">Explore Food Posts</RouterLink>
-      </div>
   
       <!-- Post Modal -->
       <PostModal 
@@ -29,6 +24,11 @@
         @close="closeModal" 
       />
   
+      <!--subroute-->
+      <div>
+        <RouterLink to="/posts/food">Explore Food blogs</RouterLink>
+      </div>
+            
       <!-- Router View for Subroutes-->
       <router-view v-if="$route.path === '/posts/food'"></router-view>
     </div>

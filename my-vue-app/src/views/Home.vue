@@ -2,7 +2,7 @@
   <div>
     <h1>Welcome to the Blog</h1>
 
-    <!-- Blog Posts Grid -->
+    <!-- Blog Posts Grid (to display items in frid format)-->
     <div class="grid-container">
       <div 
         v-for="post in posts" 
@@ -33,7 +33,7 @@ const posts = ref([]);
 const modalVisible = ref(false);
 const selectedPost = ref(null);
 
-// Load posts from JSON
+// Loading posts from JSON
 onMounted(() => {
   fetch('/blog-posts.json')
     .then(response => response.json())
@@ -43,13 +43,13 @@ onMounted(() => {
     .catch(err => console.error(err));
 });
 
-// Open modal with the selected post
+// To open modal with the selected post
 const openModal = (post) => {
   selectedPost.value = post;
   modalVisible.value = true;
 };
 
-// Close modal
+// Closing modal
 const closeModal = () => {
   modalVisible.value = false;
 };
@@ -62,7 +62,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Grid container */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 1fr));
@@ -71,7 +70,6 @@ h1 {
   justify-items: center;
 }
 
-/* Grid item */
 .grid-item {
   border: 1px solid #ddd;
   border-radius: 8px;

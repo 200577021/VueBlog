@@ -1,16 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 
-// Routes with lazy loading for About and Posts
 const routes = [
-  { path: '/', component: Home },  // No lazy loading for Home
+  { path: '/', component: Home },
   {
     path: '/posts',
     component: () => import('../views/Posts.vue'),  // Lazy load for Posts
     children: [
       {
         path: 'food',
-        component: () => import('../views/Food.vue')  // Lazy load for Food topic
+        component: () => import('../views/Food.vue')  // Lazy load for Food topic subroute
       }
     ]
   },
