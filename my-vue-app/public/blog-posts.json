@@ -1,7 +1,7 @@
 [
-    { "id": 1, "title": "Coding Basics", "category": "Programming", "content": "This is a post about coding basics. The blog post will be completed soon ;)", "author": "Aquilav", "date": "2025-03-20"},
-    { "id": 2, "title": "Travel & Adventures", "category": "Travel", "content": "This is a blog post about travel and adventures. This post is being updated :)", "author": "Ashik", "date": "2025-03-20" },
-    { "id": 3, "title": "Vue vs React", "category": "Programming", "content": "In this blog post, we can take a look at how does Vue compare with React. (To be continued :) ", "author": "Aquilav", "date": "2025-03-20" },
-    { "id": 4, "title": "Traveling in Europe", "category": "Travel", "content": "This is a blog post about traveling in Europe. (Work in progress..!)", "author": "Ashik", "date": "2025-03-20" }
+    { "id": 1, "title": "Coding Basics", "category": "Programming", "content": "This is a post about coding basics. The blog post will be completed soon ;)", "author": "Aquilav", "date": "2025/03/20"},
+    { "id": 2, "title": "Travel & Adventures", "category": "Travel", "content": "This is a blog post about travel and adventures. This post is being updated :)", "author": "Ashik", "date": "2025/03/20" },
+    { "id": 3, "title": "Vue vs React", "category": "Programming", "content": "In this blog post, we can take a look at how does Vue compare with React. (To be continued :) ", "author": "Aquilav", "date": "2025/03/20" },
+    { "id": 4, "title": "Traveling in Europe", "category": "Travel", "content": "This is a blog post about traveling in Europe. (Work in progress..!)", "author": "Ashik", "date": "2025/03/20" }
   ]
   
