@@ -1,6 +1,6 @@
 <template>
   <teleport to="body">
-    <div v-if="showModal" class="modal-overlay" @click="close">
+    <div v-if="showModal" class="modal-overlay">
       <div class="modal-content">
         <h2>{{ post.title }}</h2>
         <p><strong>Author:</strong> {{ post.author }}</p>
