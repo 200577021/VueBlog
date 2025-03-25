@@ -5,11 +5,6 @@
       <!-- Search Bar -->
       <input v-model="searchQuery" type="text" placeholder="Search posts..." />
   
-      <!-- Link to Subroute-->
-      <div>
-        <RouterLink to="/posts/food">Explore Food Posts</RouterLink>
-      </div>
-  
       <!-- Displaying filtered posts -->
       <div v-if="filteredPosts.length">
         <div v-for="post in filteredPosts" :key="post.id" class="post" @click="openModal(post)">
@@ -19,6 +14,11 @@
       </div>
       <div v-else>
         <p>No posts found...</p>
+      </div>
+
+      <!-- Displaying the Subroute-->
+      <div>
+        <RouterLink to="/posts/food">Explore Food Posts</RouterLink>
       </div>
   
       <!-- Post Modal -->
@@ -75,7 +75,7 @@
   };
   
   onBeforeUnmount(() => {
-    // Cleanup
+    // Cleanup of resources
     posts.value = [];
     selectedPost.value = null;
     searchQuery.value = '';
