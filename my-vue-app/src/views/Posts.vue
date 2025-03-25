@@ -18,7 +18,7 @@
 
       <!-- Displaying the Subroute-->
       <div>
-        <RouterLink to="/posts/food">Explore Food Posts</RouterLink>
+        <RouterLink to="/posts/food">Explore Food blogs</RouterLink>
       </div>
   
       <!-- Post Modal -->
